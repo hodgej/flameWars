@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://gfx/george-orwell-quotes-header-min.jpg" type="Texture" id=1]
+
+[node name="firescene" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 511.164, 311.34 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 1 )
+flip_h = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 512.028, 306.75 )
